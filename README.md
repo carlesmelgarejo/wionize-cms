@@ -6,19 +6,27 @@ It uses CodeIgniter version 2.0.2 as its main framework, together with PHP (mini
 
 ### Identified issues or errors:
 
-Compatibility with modern PHP: The project uses the mysql extension (deprecated since PHP 5.5 and removed in PHP 7.0+), which may cause errors on servers running recent PHP versions. This could prevent it from working properly in modern environments.
-Security vulnerabilities: Since this is an old version (2013), it may contain known vulnerabilities in CodeIgniter 2.x and in the Ionize CMS itself, such as SQL injection, XSS, or other unpatched exploits.
-Outdated dependencies: It uses jQuery and other old libraries, which may have compatibility issues with modern browsers and no longer receive security updates.
-No official support: CodeIgniter 2.x and Ionize 1.0.2 are no longer actively supported, so there are no fixes for newly discovered issues.
-Possible syntax or functional errors: When running it on modern PHP versions, warnings or errors may appear due to obsolete functions, although I have not detected any obvious syntax errors in the main files.
+- Compatibility with modern PHP: The project uses the mysql extension (deprecated since PHP 5.5 and removed in PHP 7.0+), which may cause errors on servers running recent PHP versions. This could prevent it from working properly in modern environments.
+
+- Security vulnerabilities: Since this is an old version (2013), it may contain known vulnerabilities in CodeIgniter 2.x and in the Ionize CMS itself, such as SQL injection, XSS, or other unpatched exploits.
+
+- Outdated dependencies: It uses jQuery and other old libraries, which may have compatibility issues with modern browsers and no longer receive security updates.
+
+- No official support: CodeIgniter 2.x and Ionize 1.0.2 are no longer actively supported, so there are no fixes for newly discovered issues.
+
+- Possible syntax or functional errors: When running it on modern PHP versions, warnings or errors may appear due to obsolete functions, although I have not detected any obvious syntax errors in the main files.
 
 ### Possible improvements:
 
-Upgrade CodeIgniter: Migrate to CodeIgniter 3.x or 4.x (a major change that would require significant code rewriting).
-Change the database driver: Replace mysql with mysqli or PDO in the configuration (database.php) to ensure compatibility with modern PHP.
-Upgrade PHP compatibility: Adapt the code for PHP 7.4+ or 8.x by fixing obsolete functions and adding strict typing where appropriate.
-Modernize the frontend: Update jQuery to more recent versions and improve the CSS/HTML for responsive design.
-Add testing and documentation: Implement unit tests, improve the documentation, and add modern deployment tooling (Docker, etc.).
+- Upgrade CodeIgniter: Migrate to CodeIgniter 3.x or 4.x (a major change that would require significant code rewriting).
+
+- Change the database driver: Replace mysql with mysqli or PDO in the configuration (database.php) to ensure compatibility with modern PHP.
+
+- Upgrade PHP compatibility: Adapt the code for PHP 7.4+ or 8.x by fixing obsolete functions and adding strict typing where appropriate.
+
+- Modernize the frontend: Update jQuery to more recent versions and improve the CSS/HTML for responsive design.
+
+- Add testing and documentation: Implement unit tests, improve the documentation, and add modern deployment tooling (Docker, etc.).
 
 # Ionize CMS
 
