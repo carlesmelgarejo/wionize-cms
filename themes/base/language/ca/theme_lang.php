@@ -1,0 +1,52 @@
+<?php
+
+$lang['right_button'] = 'Botó dret deshabilitat en aquesta web.';
+$lang['button_read_more'] = 'Read More...';
+$lang['button_register'] = '';
+$lang['categories'] = 'Categories';
+$lang['currentSlide'] = '';
+$lang['form_button_login'] = '';
+$lang['form_button_logout'] = '';
+$lang['form_button_password_back'] = '';
+$lang['form_button_save_profile'] = '';
+$lang['form_button_send'] = '';
+$lang['form_contact_error_message'] = '';
+$lang['form_contact_error_title'] = '';
+$lang['form_contact_success_message'] = '';
+$lang['form_contact_success_title'] = '';
+$lang['form_label_birthdate'] = '';
+$lang['form_label_budget_budget'] = 'Vull demanar un pressupost';
+$lang['form_label_budget_info'] = 'M’ha agradat un projecte i en vull demanar més informació';
+$lang['form_label_budget_order'] = 'Vull fer un encàrrec';
+$lang['form_label_delete_account'] = '';
+$lang['form_label_email'] = '';
+$lang['form_label_firstname'] = '';
+$lang['form_label_gender'] = '';
+$lang['form_label_gender_female'] = '';
+$lang['form_label_gender_male'] = '';
+$lang['form_label_gender_unisex'] = '';
+$lang['form_label_heard_friend'] = 'Gràcies a un amic :)';
+$lang['form_label_heard_google'] = 'He buscat un dissenyador a Google';
+$lang['form_label_heard_linkedin'] = 'Pel Linkedin';
+$lang['form_label_lastname'] = '';
+$lang['form_label_message'] = '';
+$lang['form_label_name'] = '';
+$lang['form_label_password'] = '';
+$lang['form_label_screen_name'] = '';
+$lang['home_last_post'] = 'Last posts';
+$lang['module_simpleform_text_error'] = '';
+$lang['module_simpleform_text_success'] = '';
+$lang['module_simpleform_text_thanks'] = '';
+$lang['title_archives'] = 'Archives';
+$lang['title_categories'] = 'Categories';
+$lang['title_contact_form'] = 'Contact Form';
+$lang['title_login'] = 'Login';
+$lang['title_logout'] = 'Logout';
+$lang['title_password_back'] = 'Password back';
+$lang['title_tags'] = 'Tags';
+$lang['title_welcome'] = 'Welcome to our webpage !';
+$lang['you_are_browsing_archive'] = 'You are browsing archive';
+$lang['you_are_browsing_category'] = 'Your are browsing category';
+$lang['you_are_browsing_tag'] = 'Your are browsing tag';
+
+?>

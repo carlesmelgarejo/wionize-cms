@@ -1,0 +1,1 @@
+User-agent: *Disallow: /application/Disallow: /bdd/Disallow: /install/
